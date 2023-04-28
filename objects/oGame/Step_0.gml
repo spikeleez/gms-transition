@@ -1,7 +1,8 @@
 if (keyboard_check_pressed(vk_space))
 {
-	if (!instance_exists(oTransition))
+	if (!instance_exists(oTransitionParent))
 	{
-		CreateNewTransition(rHome, false);
+		// Create Simple Transition
+		CreateNewTransition(oTransitionSquare, rHome);
 	}
 }

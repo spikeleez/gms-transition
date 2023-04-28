@@ -1,4 +1,3 @@
-transitionSprite = sDiamond;
 transitionStart = true;
 transitionImage = 0;
 transitionSpeed = sprite_get_speed(transitionSprite) / game_get_speed(gamespeed_fps);
@@ -10,3 +9,5 @@ cols = ceil(room_width / size);
 lins = ceil(room_height / size);
 
 roomTarget = -1;
+
+
