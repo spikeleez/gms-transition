@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oTransitionSquare",
-  "spriteId": null,
+  "spriteId": {
+    "name": "sTransition",
+    "path": "sprites/sTransition/sTransition.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
